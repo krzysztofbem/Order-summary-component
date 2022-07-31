@@ -19,29 +19,4 @@ div {
 	border: 1px solid black;
 }
 
-.blue {
-	background-color: royalblue;
-	height: 100px;
-}
-.red {
-	background-color: tomato;
-	height: 180px;
-}
-.green {
-	background-color: limegreen;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	height: 60px;
-}
-.yellow {
-	background-color: yellow;
-	height: 100px;
-}
-.black {
-	background-color: black;
-	height: 40px;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
+
