@@ -27,7 +27,7 @@ body {
 	background-color: var(--Pale-blue);
 }
 .card__box {
-	position: absolute;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -35,13 +35,21 @@ body {
 	min-width: 327px;
 	max-width: 450px;
 	min-height: 567px;
-	border-radius: 25px;
+	border-radius: 20px;
 	margin: 2.4rem;
 	background-color: var(--Very-pale-blue);
+	text-align: center;
 	overflow: hidden;
 }
 .card__img {
 	position: absolute;
 	top: 0;
 	width: 100%;
+}
+.card__title {
+	font-weight: 900;
+	padding: 3rem 0 2rem;
+}
+.card__text {
+	color: var(--Desaturated-blue);
 }
