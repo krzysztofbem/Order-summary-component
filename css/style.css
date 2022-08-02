@@ -41,6 +41,9 @@ body {
 	text-align: center;
 	overflow: hidden;
 }
+.card__wrapper {
+	padding: 0 2.4rem 0;
+}
 .card__img {
 	position: absolute;
 	top: 0;
@@ -52,4 +55,7 @@ body {
 }
 .card__text {
 	color: var(--Desaturated-blue);
+}
+.card__text--item {
+	line-height: 2.5rem;
 }
