@@ -42,8 +42,10 @@ body {
 	overflow: hidden;
 }
 .card__wrapper {
-	padding: 0 2.4rem 0;
+	margin: 3rem 2.4rem 0;
 }
+
+/* TU SKOŃCZYŁEM */
 .card__img {
 	position: absolute;
 	top: 0;
@@ -51,7 +53,6 @@ body {
 }
 .card__title {
 	font-weight: 900;
-	padding: 3rem 0 2rem;
 }
 .card__text {
 	color: var(--Desaturated-blue);
