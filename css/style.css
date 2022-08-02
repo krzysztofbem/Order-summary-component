@@ -30,14 +30,20 @@ body {
 	background-color: hsl(225, 100%, 94%);
 }
 .card__box {
-	min-width: 327px;
-	max-width: 450px;
-	min-height: 567px;
-	max-height: 697px;
 	position: relative;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	max-width: 450px;
+	min-height: 567px;
+	border-radius: 25px;
+	margin: 2rem;
+	overflow: hidden;
 	border: 10px solid tomato;
+}
+.card__img {
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
