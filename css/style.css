@@ -69,3 +69,6 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.card__text--bold{
+	font-weight: 700;
+}
