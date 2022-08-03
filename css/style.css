@@ -55,10 +55,17 @@ body {
 }
 .card__title {
 	font-weight: 900;
+	margin: 3rem 0 2rem;
 }
 .card__text {
 	color: var(--Desaturated-blue);
 }
 .card__text--item {
 	line-height: 2.5rem;
+}
+.card__subscription {
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
