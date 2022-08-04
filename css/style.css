@@ -94,4 +94,13 @@ span {
 .card__btn {
 	padding: 1.5rem;
 	width: 100%;
+	border: none;
+	border-radius: 10px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+	background-color: var(--Bright-blue);
+}
+.card__btn--gray {
+	color: var(--Desaturated-blue);
+	background-color: var(--Very-pale-blue);
 }
