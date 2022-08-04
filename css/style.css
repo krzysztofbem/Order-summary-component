@@ -37,12 +37,11 @@ body {
 	min-height: 567px;
 	border-radius: 20px;
 	margin: 2.4rem;
-	background-color: var(--Very-pale-blue);
+	background-color: hsl(0, 0%, 100%);
 	text-align: center;
 	overflow: hidden;
 }
 
-/* TU SKOŃCZYŁEM */
 .card__wrapper {
 	position: absolute;
 	margin: 3rem 2.4rem 0;
@@ -57,6 +56,7 @@ body {
 	font-weight: 900;
 	margin: 3rem 0 2rem;
 }
+/* TU SKOŃCZYŁEM */
 .card__text {
 	color: var(--Desaturated-blue);
 }
@@ -64,11 +64,17 @@ body {
 	line-height: 2.5rem;
 }
 .card__subscription {
-	margin-bottom: 2rem;
+	padding: 1.5rem 1.5rem;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	background-color: var(--Very-pale-blue);
+	border-radius: 10px;
 }
-.card__text--bold{
+span {
+	font-weight: 500;
+}
+.card__text--bold {
 	font-weight: 700;
+	color: var(--Dark-blue);
 }
