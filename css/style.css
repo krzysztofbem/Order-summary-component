@@ -100,6 +100,7 @@ span {
 	font-weight: 700;
 	color: hsl(0, 0%, 100%);
 	background-color: var(--Bright-blue);
+	border: 2px solid black;
 }
 .card__btn--gray {
 	color: var(--Desaturated-blue);
