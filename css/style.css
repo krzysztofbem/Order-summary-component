@@ -57,7 +57,7 @@ body {
 	font-weight: 900;
 	margin: 5rem 0 2rem;
 }
-/* TU SKOŃCZYŁEM */
+
 .card__text {
 	color: var(--Desaturated-blue);
 }
@@ -91,6 +91,7 @@ span {
 	justify-content: space-between;
 	align-items: center;
 }
+/* TU SKOŃCZYŁEM */
 .card__btn {
 	padding: 1.5rem;
 	width: 100%;
@@ -103,4 +104,6 @@ span {
 .card__btn--gray {
 	color: var(--Desaturated-blue);
 	background-color: var(--Very-pale-blue);
+border: 2px solid black;
 }
+
