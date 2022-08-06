@@ -63,6 +63,7 @@ body {
 }
 .card__text--item {
 	line-height: 2.5rem;
+	padding: 0 0.5rem;
 }
 .card__subscription {
 	margin: 2.4rem 0;
@@ -106,4 +107,4 @@ span {
 	color: var(--Desaturated-blue);
 	background-color: hsl(0, 0%, 100%);
 }
-/* TU SKOŃCZYŁEM */
+/* TU SKOŃCZYŁEM  DODAĆ HOVERY I PO ZADANIU*/
