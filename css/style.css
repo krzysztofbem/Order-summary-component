@@ -137,4 +137,7 @@ span {
 	.plan {
 		padding-right: 4rem;
 	}
+	.card__title{
+		padding-bottom: 1rem;
+	}
 }
