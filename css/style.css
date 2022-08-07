@@ -125,3 +125,16 @@ span {
 	cursor: pointer;
 	color: var(--Dark-blue);
 }
+
+@media (min-width: 1440px) {
+	.card__box {
+		min-width: 450px;
+		min-height: 697px;
+	}
+	.card__wrapper {
+		padding: 3rem;
+	}
+	.plan {
+		padding-right: 4rem;
+	}
+}
