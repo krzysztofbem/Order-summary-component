@@ -34,7 +34,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	min-width: 327px;
-	max-width: 450px;
 	min-height: 567px;
 	border-radius: 20px;
 	margin: 2.4rem;
@@ -120,8 +119,9 @@ span {
 .card__btn--gray {
 	color: var(--Desaturated-blue);
 	background-color: hsl(0, 0%, 100%);
+	transition: color 0.3s;
 }
-.card__btn--gray {
-	
+.card__btn--gray:hover {
+	cursor: pointer;
+	color: var(--Dark-blue);
 }
-/* TU SKOŃCZYŁEM  DODAĆ HOVERY I PO ZADANIU*/
