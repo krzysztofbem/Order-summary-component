@@ -91,7 +91,7 @@ span {
 .card__text--link:hover {
 	cursor: pointer;
 	text-decoration: none;
-	color: hsl(245deg 83% 68%);
+	color: hsl(245, 83%, 68%);
 }
 .card__btns {
 	display: flex;
@@ -110,8 +110,18 @@ span {
 	color: hsl(0, 0%, 100%);
 	background-color: var(--Bright-blue);
 }
+.card__btn--purple {
+	transition: background-color 0.3s;
+}
+.card__btn--purple:hover {
+	cursor: pointer;
+	background-color: hsl(245, 83%, 68%);
+}
 .card__btn--gray {
 	color: var(--Desaturated-blue);
 	background-color: hsl(0, 0%, 100%);
+}
+.card__btn--gray {
+	
 }
 /* TU SKOŃCZYŁEM  DODAĆ HOVERY I PO ZADANIU*/
