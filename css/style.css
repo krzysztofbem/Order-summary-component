@@ -86,6 +86,12 @@ span {
 	font-size: 1.3rem;
 	color: var(--Bright-blue);
 	font-weight: 900;
+	transition: all 0.3s;
+}
+.card__text--link:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: hsl(245deg 83% 68%);
 }
 .card__btns {
 	display: flex;
